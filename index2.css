@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box;
+    color: aliceblue;
+}
+
+header {
+    height: 100px;
+    background-color: darkgray;
+    color: aliceblue;
+    text-align: center;
+}
+
+/* 로그인/회원가입 스타일링 */
+.login {
+
+    float: right;
+}
+
+/* a태그 스타일링 */
+a:hover {
+    text-decoration: underline;
+}
+/* nav bar */
+nav {
+    background-color: gray;
+}
+
+.for-class {
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+

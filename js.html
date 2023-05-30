@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>Box1</div>
+    <div>Box2</div>
+    <div>Box3</div>
+    <div id="box_id">Box4</div>
+    <script>
+        // var a 변수 호이스팅
+        console.log(a)
+        var a = "var 변수"; 
+        console.log(a)
+
+        //let b;
+        //console.log(b)
+        let b = "let 변수"; 
+
+        const C = "const 변수"; 
+    
+
+        if(true) {
+            var a = 100;
+            let b = 200;
+            const C = 300;
+
+        //console.log(a,b,C);
+        }
+      
+        const box_id = document.getElementById("box_id");
+        const div = document.getElementsTagName("div");
+
+        //console.log(div);
+
+    </script>
+
+    
+</body>
+</html>
